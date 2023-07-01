@@ -1,7 +1,8 @@
 # code
 N = int(input())
 M = int(input())
-A = list(input())
+A = list(int, input().split)
+A.sort()
 i = 0
 j = N-1
 count = 0
