@@ -12,4 +12,4 @@ for i in range(N):
         mydeque.popleft()
     print(mydeque[0][0],end=' ')
 
-# 데크는 처음이라 이해하기 좀 어려웠다...
+# 데크는 처음이라 이해하기 좀 어려웠다..
