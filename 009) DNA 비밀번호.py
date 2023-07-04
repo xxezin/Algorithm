@@ -48,6 +48,7 @@ result = 0
 A = list(input())
 checkList = list(map(int,input().split()))
 
+## 첫번째 문자열에 대한 검사
 for i in range(4):
     if checkList[i] ==0:
         checkSecret +=1
@@ -56,7 +57,7 @@ for i in range(P):
     myadd(A[i])
     if checkSecret ==4:
         result +=1
-
+## 슬라이딩하며 검사
 for i in range(P,S):
     j = i-P
     myadd(A[i])
