@@ -15,3 +15,4 @@ for i in range(N):
             print(str((temp[1]))+'\n')
     else:
         myQueue.put((abs(request),request))
+
