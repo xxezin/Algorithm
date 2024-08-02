@@ -63,7 +63,7 @@ sys.setrecursionlimit(10**6)
 #     print(parent[i])
 
 
-# 재귀 DFS
+## 재귀 DFS - 선호
 def DFS(v):
     for i in tree[v]:
         if not parent[i]:
